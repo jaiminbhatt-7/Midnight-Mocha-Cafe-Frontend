@@ -120,7 +120,8 @@ export default function Index() {
             Midnight Mocha
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
-            Your favorite student-run café. Great coffee, great vibes, great prices.
+            Your favorite student-run café. Great coffee, great vibes, great
+            prices.
           </p>
           <button className="inline-block bg-accent hover:bg-accent/90 text-foreground font-semibold py-3 px-8 rounded-lg transition-all duration-200 transform hover:scale-105">
             Order Now
@@ -134,7 +135,8 @@ export default function Index() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Menu</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Crafted with care and student budgets in mind. Every cup is made fresh to order.
+              Crafted with care and student budgets in mind. Every cup is made
+              fresh to order.
             </p>
           </div>
 
@@ -194,7 +196,8 @@ export default function Index() {
               Student Favorites
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              These are our most-loved drinks, trusted by students across campus.
+              These are our most-loved drinks, trusted by students across
+              campus.
             </p>
           </div>
 
@@ -265,7 +268,8 @@ export default function Index() {
               <div className="text-7xl mb-4">☕</div>
               <h3 className="text-3xl font-bold mb-4">Fresh. Quality. Fast.</h3>
               <p className="text-lg text-white/90">
-                Every drink made fresh. Every order matters. Every student welcome.
+                Every drink made fresh. Every order matters. Every student
+                welcome.
               </p>
             </div>
           </div>
@@ -273,7 +277,10 @@ export default function Index() {
       </section>
 
       {/* Location & Contact Section */}
-      <section id="contact" className="py-20 md:py-32 bg-primary/5 border-t border-border">
+      <section
+        id="contact"
+        className="py-20 md:py-32 bg-primary/5 border-t border-border"
+      >
         <div className="container px-4 md:px-6">
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Visit Us</h2>
@@ -349,17 +356,26 @@ export default function Index() {
               <h4 className="font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2 text-background/70">
                 <li>
-                  <a href="#menu" className="hover:text-background transition-colors">
+                  <a
+                    href="#menu"
+                    className="hover:text-background transition-colors"
+                  >
                     Menu
                   </a>
                 </li>
                 <li>
-                  <a href="#about" className="hover:text-background transition-colors">
+                  <a
+                    href="#about"
+                    className="hover:text-background transition-colors"
+                  >
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" className="hover:text-background transition-colors">
+                  <a
+                    href="#contact"
+                    className="hover:text-background transition-colors"
+                  >
                     Contact
                   </a>
                 </li>
@@ -383,9 +399,7 @@ export default function Index() {
           </div>
 
           <div className="border-t border-background/20 pt-8 text-center text-background/60">
-            <p>
-              © 2024 Midnight Mocha. Made by students, for students. ☕
-            </p>
+            <p>© 2024 Midnight Mocha. Made by students, for students. ☕</p>
           </div>
         </div>
       </footer>
